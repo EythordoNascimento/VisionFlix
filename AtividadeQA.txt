@@ -1,0 +1,32 @@
+Vamos praticar!
+Você vai atuar como QA (Analista de Qualidade) colaborando com uma equipe que está desenvolvendo uma nova funcionalidade de recuperação de senha para um sistema de e-commerce.
+✅ Requisitos básicos:
+- O usuário deve poder solicitar a recuperação de senha por e-mail.
+- Um e-mail com o link de redefinição deve ser enviado.
+- O link expira em 24h.
+- Se o e-mail não existir, uma mensagem de erro deve ser exibida.
+📝 Tarefa:
+- Liste 3 critérios de aceite para essa funcionalidade.
+- Escreva 2 cenários em Gherkin (Given–When–Then), representando comportamentos esperados.
+
+
+RESPOSTA
+
+1. Critérios de Aceite
+- O sistema deve enviar um e-mail de recuperação de senha para o endereço informado, se ele estiver cadastrado.
+- O link enviado deve expirar automaticamente após 24 horas.
+- Se o e-mail informado não estiver cadastrado, deve ser exibida uma mensagem clara informando o erro.
+
+Gherkin
+
+Scenario: Solicitação de recuperação de senha com e-mail válido
+  Given o usuário está na página de recuperação de senha
+  When ele insere um e-mail válido e solicita a recuperação
+  Then o sistema envia um e-mail com link de redefinição
+  And o link expira em 24 horas
+
+Scenario: Solicitação de recuperação de senha com e-mail inválido
+  Given o usuário está na página de recuperação de senha
+  When ele insere um e-mail não cadastrado e solicita a recuperação
+  Then o sistema exibe a mensagem "E-mail não encontrado"
+  And nenhum e-mail é enviado
