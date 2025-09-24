@@ -1,8 +1,6 @@
 # 🎬 VisionFlix
 
-
-VisionFlix é uma plataforma fictícia de streaming desenvolvida como trabalho acadêmico para a disciplina de Desenvolvimento Front-End. O projeto foi construído inteiramente com HTML e CSS puro, com foco em estruturação semântica, responsividade e design visual.
-
+VisionFlix é uma plataforma fictícia de streaming desenvolvida como parte do trabalho da disciplina de Desenvolvimento Front-End. Utilizando apenas HTML e CSS puro, o projeto prioriza a estruturação semântica e o apuro visual. 
 # 📚 Sobre o Projeto
 O objetivo do VisionFlix é simular a interface de uma plataforma de streaming, oferecendo uma experiência visual agradável e organizada. O projeto foi realizado em grupo e representa o domínio de conceitos fundamentais de HTML e CSS.
 # 🧩 Funcionalidades
