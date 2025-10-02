@@ -252,7 +252,7 @@ body {
 
 .poster-play {
 
-  flex: 1 1 0;                      /* ✅ Cards se ajustam proporcionalmente */
+  flex: 1 1 0;                      /* Cards se ajustam proporcionalmente */
   min-width: 150px;                /* Evita que fiquem minúsculos */
   max-width: 270px;                /* Limita o tamanho máximo */
   background-color: #111;
@@ -682,7 +682,81 @@ body {
 
 } 
 
-/* 🔄 Responsividade */
+
+.comentarios {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.comentarios h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #e2d703;
+}
+
+.login-aviso {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.comentario-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.comentario-form textarea {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 14px;
+  border-radius: 8px;
+  resize: none;
+  font-size: 15px;
+  height: 100px;
+}
+
+.btn-comentar {
+  align-self: flex-start;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-comentar:hover{
+  background-color: #e2d703;
+  color: #222;
+
+}
+
+.btn-comentar i {
+  margin-right: 8px;
+}
+
+.comentarios-lista {
+  margin-top: 10px;
+}
+
+.sem-comentarios {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/*  Responsividade */
 @media (max-width: 1024px) {
   .top-card img {
     height: 500px;
