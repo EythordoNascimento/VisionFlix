@@ -4,42 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes - VisionFlix</title>
-</head><link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+       <script src="script.js" defer></script>
+      </head>
 <body>
 
 <!-- Menu -->
 <header>
   <nav class="navbar">
+    <!-- Logo -->
     <div class="logo">
-      <a href="./index.html"><img src="imagens/VisionFlix.svg" alt="Logo" /></a>
+      <a href=""><img src="imagens/VisionFlix.svg" alt="Logo" /></a>
     </div>
-    <ul class="nav-list">
+
+    <!-- Botão Hamburguer -->
+    <button class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Lista de links -->
+    <ul class="nav-list" id="nav-list">
       <li class="home">
         <a href="./index.html"><i class="fa-solid fa-house"></i> Início</a>
       </li>
-      <li>
-        <a href="#"><i class="fa-solid fa-film"></i> Filmes</a>
-      </li>
-      <li>
-        <a href="./series.html"><i class="fa-solid fa-tv"></i> Séries</a>
-      </li>
-      <li>
-        <a href="./planos/mensal.html"><i class="fa-solid fa-money-bill"></i> Preços</a>
-      </li>
+      <li><a href="#"><i class="fa-solid fa-film"></i> Filmes</a></li>
+      <li><a href="./series.html"><i class="fa-solid fa-tv"></i> Séries</a></li>
+      <li><a href="./planos/mensal.html"><i class="fa-solid fa-money-bill"></i> Preços</a></li>
       <li>
         <a href="Entrar/login.html">
           <button class="btn"><i class="fa-solid fa-right-to-bracket"></i> ENTRAR</button>
         </a>
       </li>
     </ul>
-    <div class="search-bar">
+
+    <!-- Barra de pesquisa -->
+    <div class="search-bar" id="search-bar">
       <input type="text" placeholder="Buscar filmes ou séries..." />
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
   </nav>
 </header>
-
 
 
 
@@ -59,7 +64,8 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=Ue7m3ZkJx0o
+        " target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -75,7 +81,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=uriiz3G8ALw" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=5PSNL1qE6VY" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -91,7 +97,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=dD264ZjfKlk" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=wuV4BCYv-YY" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -107,7 +113,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=aPLiBxhoug0" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=wuV4BCYv-YY" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -123,7 +129,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=Q9X-bAE8KTc" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=uisBaTkQAEs" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -235,7 +241,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=cPNVNqn4T9I" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -251,7 +257,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=uriiz3G8ALw" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=xjDjIWPwcPU" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -267,7 +273,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=dD264ZjfKlk" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=D86RtevtfrA" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -283,7 +289,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=aPLiBxhoug0" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -291,7 +297,7 @@
 
     <div class="poster-play">
       <div>
-        <h2>Liga Da Justiça<a href=""></a></h2>
+        <h2>Liga Da Justiça</h2>
       </div>
       <div>
         <a href="modelo.html">
@@ -299,7 +305,7 @@
       </a>
       </div>
       <div>
-        <a href="https://www.youtube.com/watch?v=Q9X-bAE8KTc" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
+        <a href="https://www.youtube.com/watch?v=3cxixD8fEEM" target="_blank" id="btn-assistir" title="Assistir" class="btn-assistir">
           <span class="fas fa-play"></span> Assistir
         </a>
       </div>
@@ -345,6 +351,7 @@
         </div>
       </div>
     </footer>
+
 
 
     

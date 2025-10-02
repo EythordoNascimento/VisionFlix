@@ -7,41 +7,45 @@
   <link rel="stylesheet" href="../css/login.css" />
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="../script.js" defer></script>
 </head>
 <body>
 
-  <!-- Menu -->
- 
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <a href=""><img src="../imagens/VisionFlix.svg" alt="Logo" /></a>
-      </div>
-      <ul class="nav-list">
-        <li class="home">
-          <a href="../index.html"><i class="fa-solid fa-house"></i> Início</a>
-        </li>
-        <li>
-          <a href="../filmes.html"><i class="fa-solid fa-film"></i> Filmes</a>
-        </li>
-        <li>
-          <a href="../series.html"><i class="fa-solid fa-tv"></i> Séries</a>
-        </li>
-        <li>
-          <a href="../planos/mensal.html"><i class="fa-solid fa-money-bill"></i> Preços</a>
-        </li>
-        <li>
-          <a href="../Entrar/login.html">
-            <button class="btn"><i class="fa-solid fa-right-to-bracket"></i> ENTRAR</button>
-          </a>
-        </li>
-      </ul>
-      <div class="search-bar">
-        <input type="text" placeholder="Buscar filmes ou séries..." />
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-      </div>
-    </nav>
-  </header>
+ <!-- Menu -->
+ <header>
+  <nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <a href=""><img src="../imagens/VisionFlix.svg" alt="Logo" /></a>
+    </div>
+
+    <!-- Botão Hamburguer -->
+    <button class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Lista de links -->
+    <ul class="nav-list" id="nav-list">
+      <li class="home">
+        <a href="../index.html"><i class="fa-solid fa-house"></i> Início</a>
+      </li>
+      <li><a href="../filmes.html"><i class="fa-solid fa-film"></i> Filmes</a></li>
+      <li><a href="../series.html"><i class="fa-solid fa-tv"></i> Séries</a></li>
+      <li><a href="../planos/mensal.html"><i class="fa-solid fa-money-bill"></i> Preços</a></li>
+      <li>
+        <a href="Entrar/login.html">
+          <button class="btn"><i class="fa-solid fa-right-to-bracket"></i> ENTRAR</button>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Barra de pesquisa -->
+    <div class="search-bar" id="search-bar">
+      <input type="text" placeholder="Buscar filmes ou séries..." />
+      <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </nav>
+</header>
 
   <!-- Login centralizado -->
   <main>
